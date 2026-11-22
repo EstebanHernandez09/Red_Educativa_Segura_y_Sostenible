@@ -1,48 +1,74 @@
 # Diseño de un Modelo de Red Educativa Segura y Sostenible
 
-## Descripción del proyecto
+## Descripción
 
-Este proyecto tiene como objetivo diseñar y validar un modelo de infraestructura de red educativa segura y sostenible, orientado a mejorar la organización de los recursos de red, fortalecer los mecanismos de seguridad y controlar el acceso a los servicios de conectividad.
+Este repositorio contiene los archivos del proyecto académico **Diseño de un Modelo de Red Educativa Segura y Sostenible**, desarrollado mediante un entorno de simulación con GNS3 y FortiGate.
 
-La propuesta se desarrolla en un entorno de simulación utilizando **GNS3 y FortiGate**, en el cual se implementan mecanismos de segmentación de red mediante VLAN, políticas de firewall, filtrado web, control de aplicaciones, autenticación de usuarios, gestión del ancho de banda y conexiones VPN Site-to-Site entre sedes.
+El proyecto propone una arquitectura de red orientada a entornos educativos, con el propósito de mejorar la segmentación de los usuarios, fortalecer los mecanismos de seguridad, administrar el tráfico de red y establecer comunicaciones seguras entre diferentes sedes.
 
-El proyecto contempla la validación de las funcionalidades implementadas mediante pruebas de conectividad, control de acceso, seguridad y comunicación entre redes, documentando los resultados y las limitaciones encontradas durante el desarrollo.
+El laboratorio permite visualizar y revisar la topología diseñada, las configuraciones de los dispositivos, los mecanismos de seguridad implementados y las pruebas funcionales realizadas durante el desarrollo del proyecto.
 
 ## Objetivos
 
 - Diseñar una arquitectura de red segmentada para un entorno educativo.
-- Implementar políticas de seguridad y control de acceso mediante FortiGate.
-- Administrar y controlar el tráfico de red de acuerdo con las necesidades de los usuarios.
-- Establecer conectividad segura entre dos sedes simuladas mediante VPN IPsec.
-- Validar el funcionamiento del modelo mediante pruebas técnicas.
-- Promover el aprovechamiento de los recursos tecnológicos a través de la simulación.
+- Implementar controles de seguridad y políticas de acceso mediante FortiGate.
+- Regular y administrar el tráfico de red.
+- Establecer conectividad segura entre sedes mediante VPN IPsec Site-to-Site.
+- Validar las funcionalidades implementadas mediante pruebas en un ambiente simulado.
+- Documentar el diseño, las configuraciones y los resultados obtenidos.
 
-## Tecnologías y herramientas
+## Tecnologías utilizadas
 
-- **GNS3:** Plataforma utilizada para el diseño y simulación de la topología de red.
-- **FortiGate:** Firewall utilizado para implementar mecanismos de seguridad, segmentación, filtrado y conectividad.
-- **VMware:** Plataforma de virtualización utilizada para soportar el entorno de laboratorio.
+| Tecnología | Descripción |
+|---|---|
+| GNS3 | Diseño y simulación de la topología de red. |
+| FortiGate | Firewall, segmentación, políticas de seguridad y VPN. |
+| VMware | Plataforma de virtualización utilizada para el entorno de laboratorio. |
 
-## Funcionalidades implementadas
+## Funcionalidades del laboratorio
 
 - Segmentación de red mediante VLAN.
-- Administración de políticas de firewall.
-- Control y filtrado de navegación web.
-- Control de aplicaciones.
-- Autenticación y control de acceso de usuarios.
-- Gestión y priorización del tráfico.
-- VPN Site-to-Site IPsec entre sedes.
-- Pruebas de conectividad y seguridad.
-- Documentación de configuraciones y resultados.
+- Políticas de firewall y control de acceso.
+- Web Filter.
+- Application Control.
+- Autenticación y portal cautivo.
+- Traffic Shaping.
+- VPN Site-to-Site IPsec.
+- Conectividad y validación entre redes.
+- Pruebas de políticas de seguridad y tráfico.
 
-## Alcance y limitaciones
+## Estructura del repositorio
 
-El proyecto se desarrolla en un ambiente de simulación, por lo que las funcionalidades disponibles dependen de las características de las versiones utilizadas y de las licencias de los dispositivos FortiGate. Los resultados obtenidos corresponden a las pruebas realizadas en el laboratorio virtual y no representan mediciones de una infraestructura educativa en producción.
+- `gns3-project/`: archivos del proyecto de simulación.
+- `backups/`: configuraciones sanitizadas de los FortiGate.
+- `documentation/`: documentación técnica y procedimientos.
+- `evidence/`: capturas y evidencias de las pruebas realizadas.
+- `diagrams/`: diagramas de la topología y arquitectura.
+
+## Requisitos
+
+Para utilizar el proyecto se requiere:
+
+- GNS3 instalado y configurado.
+- VMware, cuando sea necesario para el entorno de virtualización.
+- Appliances e imágenes compatibles con los dispositivos utilizados en el proyecto.
+- Recursos de CPU, RAM y almacenamiento suficientes para ejecutar la topología.
+- Licencias correspondientes, cuando las funcionalidades utilizadas lo requieran.
+
+## Uso del proyecto
+
+1. Descargar o clonar este repositorio.
+2. Importar o abrir el proyecto de GNS3.
+3. Instalar y asociar los appliances requeridos, si no están disponibles.
+4. Revisar la documentación y el direccionamiento de red.
+5. Iniciar los dispositivos y realizar las pruebas siguiendo los procedimientos documentados.
+
+## Limitaciones
+
+El proyecto fue desarrollado en un ambiente simulado y estuvo sujeto a las limitaciones de las licencias y funcionalidades disponibles en FortiGate. Por lo tanto, algunos comportamientos pueden variar respecto a una implementación en infraestructura física o con licenciamiento completo.
 
 ## Propósito académico
 
-Este repositorio forma parte del desarrollo de un proyecto académico de Ingeniería de Sistemas y tiene como propósito documentar el diseño, las configuraciones, las pruebas y los resultados obtenidos, sirviendo como referencia para el estudio y la implementación de soluciones de seguridad en redes educativas.
+Este proyecto fue desarrollado con fines académicos, de aprendizaje y demostración técnica en el área de redes y ciberseguridad. Los archivos y configuraciones se comparten como referencia para el estudio y la reproducción del laboratorio, respetando las licencias de los componentes utilizados.
 
----
-
-**Nota de seguridad:** Los archivos de configuración publicados han sido revisados para evitar la exposición de credenciales, claves criptográficas, información sensible o datos de infraestructura real.
+Se recomienda revisar las configuraciones antes de utilizarlas en cualquier entorno real.
