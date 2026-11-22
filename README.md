@@ -37,14 +37,6 @@ El laboratorio permite visualizar y revisar la topología diseñada, las configu
 - Conectividad y validación entre redes.
 - Pruebas de políticas de seguridad y tráfico.
 
-## Estructura del repositorio
-
-- `gns3-project/`: archivos del proyecto de simulación.
-- `backups/`: configuraciones sanitizadas de los FortiGate.
-- `documentation/`: documentación técnica y procedimientos.
-- `evidence/`: capturas y evidencias de las pruebas realizadas.
-- `diagrams/`: diagramas de la topología y arquitectura.
-
 ## Requisitos
 
 Para utilizar el proyecto se requiere:
