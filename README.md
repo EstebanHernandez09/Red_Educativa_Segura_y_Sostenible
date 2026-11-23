@@ -8,6 +8,10 @@ El proyecto propone una arquitectura de red orientada a entornos educativos, con
 
 El laboratorio permite visualizar y revisar la topología diseñada, las configuraciones de los dispositivos, los mecanismos de seguridad implementados y las pruebas funcionales realizadas durante el desarrollo del proyecto.
 
+### Enlace de descarga del laboratorio
+
+https://unadvirtualedu-my.sharepoint.com/:u:/g/personal/jegomezhe_unadvirtual_edu_co/IQD4mRwJlQOnS4hmzpglyETFAWHJYe5SZ6Kke_QHMiTTrZI?e=CNPj5f
+
 ## Objetivos
 
 - Diseñar una arquitectura de red segmentada para un entorno educativo.
